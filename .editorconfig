@@ -1,0 +1,16 @@
+# Editor configuration, see http://editorconfig.org
+root = true
+
+[*]
+charset = uft-8
+indent_style = space
+indent_style = 2
+insert_final_newline = true
+trim_trailin_whitespace = true
+
+[*.ts]
+quote_type = simple
+
+[*.md]
+max_line_length = off
+trim_trailin_whitespace = false
